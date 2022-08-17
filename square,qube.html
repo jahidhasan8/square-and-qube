@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make double and triple of a value</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <section class="">
+        <h1 class="text-center text-4xl mt-12 font-bold text-color text-amber-600">Make double or triple of a given
+            value</h1>
+        <div class="bg-orange-500 w-1/5  mx-auto mt-12 px-10 py-8">
+            <input id="input-value" class="p-1 block mb-3 font-bold" type="text" placeholder="Enter any number">
+            <button id="btn-double"
+                class="bg-red-600 hover:bg-blue-700	 text-white rounded-xl px-4 py-2">Double</button>
+            <button id="btn-triple"
+                class="bg-fuchsia-600 hover:bg-blue-700 text-white rounded-xl px-4 py-2">Triple</button>
+        </div>
+        <div class="bg-orange-500 w-1/5  mx-auto mt-4 px-10 py-8">
+            <p class="text-4xl font-bold text-white">Result=<span class="text-3xl font-sumibold text-white"
+                    id="previous-result">00</span></p>
+        </div>
+
+    </section>
+    <script src="utilities.js"></script>
+    <script src="make-double.js"></script>
+    <script src="make-triple.js"></script>
+</body>
+
+</html>
